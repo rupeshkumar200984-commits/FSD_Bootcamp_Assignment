@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scoreboard {
+  background-color: #000; /* True Black */
+  color: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px; /* Responsive: fits smaller screens too */
+  margin: 0 auto 20px auto;
+  border-radius: 12px; /* Smoother, modern corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover:not(:disabled) {
+  background-color: #555;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #777;
+}
